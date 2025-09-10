@@ -1,0 +1,19 @@
+[user]
+	name = Ally Juang
+	email = mjjuang@gmail.com
+
+[init]
+	defaultBranch = master
+
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+
+[merge]
+	tool = bc3
+[mergetool "bc3"]
+	trustExitCode = true
+
+[color]
+	ui = true
